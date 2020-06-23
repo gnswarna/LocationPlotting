@@ -16,10 +16,11 @@ const API_PORT = process.argv[2].split(":")[1];
 
 const Pool = require('pg').Pool
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl: {
-    rejectUnauthorized: false
-  }
+  user: 'ahndgnxzdjgkbb',
+  host: 'ec2-52-44-166-58.compute-1.amazonaws.com',
+  database: 'd8176h8c22rghg',
+  password: '2846a06090561d0f78541f1db70a070ba6e70a9b2979c32e695eb7e642fefa2b',
+  port: 5432,
 })
 
 
