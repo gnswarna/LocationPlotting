@@ -1,1 +1,1 @@
-web: node simulate
+web: node simulator

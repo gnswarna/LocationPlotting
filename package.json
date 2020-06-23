@@ -4,8 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node simulate",
-    "test": "jest"
+    "start": "node simulator"
   },
   "devDependencies": {
     "jest": "^24.8.0"
