@@ -1,1 +1,1 @@
-web: node api.js localhost:3000
+web: node api.js afternoon-retreat-98590.herokuapp.com:3000
