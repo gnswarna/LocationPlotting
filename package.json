@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node simulate",
+    "start": "node simulate localhost:3000",
     "test": "jest"
   },
   "devDependencies": {
