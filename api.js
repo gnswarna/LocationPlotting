@@ -16,11 +16,10 @@ const API_PORT = process.argv[2].split(":")[1];
 
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'vehiclesdb',
-  password: 'password',
-  port: 5432,
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false
+  }
 })
 
 
